@@ -13,8 +13,8 @@ class NavBarWidget extends StatelessWidget {
           destinations: [
             NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
             NavigationDestination(
-              icon: Icon(Icons.pages),
-              label: 'About',
+              icon: Icon(Icons.person_2_sharp),
+              label: 'Profile',
               tooltip: 'Olá!',
             ),
           ],
