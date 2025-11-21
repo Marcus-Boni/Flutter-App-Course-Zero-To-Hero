@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
       padding: EdgeInsets.all(20.0),
       child: Column(
         children: [
-          HeroWidget(),
+          HeroWidget(title: 'Flutter Map'),
           InkWell(
             child: TextButton(
               child: Text('Go Back'),
@@ -39,10 +39,7 @@ class HomePage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text(
-                      "Basic Layout",
-                      style: KTextStyles.titleTealText,
-                    ),
+                    Text("Basic Layout", style: KTextStyles.titleTealText),
                     SizedBox(height: 10),
                     Text("Description of the basic layout goes here."),
                   ],
